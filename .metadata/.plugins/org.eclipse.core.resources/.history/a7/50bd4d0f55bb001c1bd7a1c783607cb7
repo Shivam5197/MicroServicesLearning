@@ -1,0 +1,22 @@
+package com.example.accounts.modal;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+public class Customer {
+
+	private int customerId;
+	private long accountNumber;
+	private String accountType;
+	private String branchAddress;
+	private LocalDate createDt;
+	             
+}
