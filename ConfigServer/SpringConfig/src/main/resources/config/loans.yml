@@ -1,0 +1,12 @@
+
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to Loans Microservice - Developer Console"
+  ContactDetails:
+    Developer: "Shivam Sharma"
+    email: "sharmaascent6@gmail.com"
+  onCallSupport:
+    - 9958093592
+    - 9811708082

@@ -1,0 +1,16 @@
+Spring:
+  config:
+    activate:
+      on-profile: "val"
+
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to accounts VAL properties"
+  ContactDetails:
+    Developer: "Shivam Sharma - QA Lead"
+    email: "sharmaascent6@gmail.com"
+  onCallSupport:
+    - 1234578952
+    - 9811708082

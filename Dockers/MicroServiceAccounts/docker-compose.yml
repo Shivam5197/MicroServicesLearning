@@ -1,0 +1,40 @@
+services:
+  accounts:
+    image: "shivam5197/accounts:v1"
+    container_name: "accounts-ms"
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - shivam5197
+
+  loans:
+    image: "shivam5197/loans:v1"
+    container_name: "loans-ms"
+    ports:
+      - "8090:8090"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - shivam5197
+  cards:
+    image: "shivam5197/cards:v1"
+    container_name: "cards-ms"
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - shivam5197
+networks:
+  shivam5197:
+    driver: "bridge"
+
+

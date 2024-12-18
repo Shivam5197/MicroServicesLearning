@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/MicroServiceCards/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroServiceLoans/pom.xml" />
+        <option value="$PROJECT_DIR$/MicroServiceAccounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Dockers/MicroServiceCards/pom.xml" />
+        <option value="$PROJECT_DIR$/Dockers/MicroServiceLoans/pom.xml" />
+        <option value="$PROJECT_DIR$/Dockers/MicroServiceAccounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/MicroServiceCards/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/MicroServiceLoans/pom.xml" />
+        <option value="$PROJECT_DIR$/Services/MicroServiceAccounts/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigManagement/V1With@ValueAnnotation/MicroServiceCards/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigManagement/V1With@ValueAnnotation/MicroServiceLoans/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigManagement/V1With@ValueAnnotation/MicroServiceAccounts/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/SpringConfig/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/MicroServiceCards/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/MicroServiceLoans/pom.xml" />
+        <option value="$PROJECT_DIR$/ConfigServer/MicroServiceAccounts/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="JavaSE-22" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

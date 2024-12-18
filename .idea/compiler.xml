@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MicroServiceCards" />
+        <module name="MicroServiceCards (1)" />
+        <module name="MicroServiceAccounts (2)" />
+        <module name="MicroServiceLoans (2)" />
+        <module name="MicroServiceAccounts (1)" />
+        <module name="SpringConfig" />
+        <module name="MicroServiceLoans (1)" />
+        <module name="MicroServiceCards (2)" />
+        <module name="MicroServiceLoans" />
+        <module name="MicroServiceAccounts" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MicroServiceAccounts" options="-parameters" />
+      <module name="MicroServiceAccounts (1)" options="-parameters" />
+      <module name="MicroServiceAccounts (2)" options="-parameters" />
+      <module name="MicroServiceCards" options="-parameters" />
+      <module name="MicroServiceCards (1)" options="-parameters" />
+      <module name="MicroServiceCards (2)" options="-parameters" />
+      <module name="MicroServiceLoans" options="-parameters" />
+      <module name="MicroServiceLoans (1)" options="-parameters" />
+      <module name="MicroServiceLoans (2)" options="-parameters" />
+      <module name="SpringConfig" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "val"
+
+build:
+  version: "1.1"
+
+Cards:
+  message: "Welcome to cards Microservice - Validation Console"
+  ContactDetails:
+    Developer: "Shivam Sharma"
+    email: "sharmaascent6@gmail.com"
+  onCallSupport:
+    - 9958093592
+    - 9811708082
